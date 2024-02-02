@@ -2,7 +2,7 @@
   "name": "eventure-backend",
   "version": "1.0.0",
   "description": "This the backend project of our event venue booking app.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
