@@ -1,0 +1,362 @@
+[
+  {
+    "Index ID": "1",
+    "Property Name": "Grand Banquet Hall",
+    "Category": "Wedding",
+    "Rating": "4",
+    "Capacity": "300",
+    "Occupied": "NO",
+    "City": "Mumbai"
+  },
+  {
+    "Index ID": "2",
+    "Property Name": "Royal Gardens",
+    "Category": "Wedding",
+    "Rating": "5",
+    "Capacity": "250",
+    "Occupied": "YES",
+    "City": "Delhi"
+  },
+  {
+    "Index ID": "3",
+    "Property Name": "Sapphire Palace",
+    "Category": "Wedding",
+    "Rating": "3",
+    "Capacity": "200",
+    "Occupied": "NO",
+    "City": "Bangalore"
+  },
+  {
+    "Index ID": "4",
+    "Property Name": "Heritage Convention Center",
+    "Category": "Wedding",
+    "Rating": "5",
+    "Capacity": "400",
+    "Occupied": "NO",
+    "City": "Jalandhar"
+  },
+  {
+    "Index ID": "5",
+    "Property Name": "Elegance Manor",
+    "Category": "Wedding",
+    "Rating": "4",
+    "Capacity": "350",
+    "Occupied": "YES",
+    "City": "Pune"
+  },
+  {
+    "Index ID": "6",
+    "Property Name": "Harmony Events Hall",
+    "Category": "Parties",
+    "Rating": "4",
+    "Capacity": "150",
+    "Occupied": "NO",
+    "City": "Mumbai"
+  },
+  {
+    "Index ID": "7",
+    "Property Name": "Celebration Gardens",
+    "Category": "Parties",
+    "Rating": "5",
+    "Capacity": "200",
+    "Occupied": "YES",
+    "City": "Delhi"
+  },
+  {
+    "Index ID": "8",
+    "Property Name": "Silk Lounge",
+    "Category": "Parties",
+    "Rating": "3",
+    "Capacity": "100",
+    "Occupied": "NO",
+    "City": "Pune"
+  },
+  {
+    "Index ID": "9",
+    "Property Name": "Royal Ballroom",
+    "Category": "Parties",
+    "Rating": "5",
+    "Capacity": "250",
+    "Occupied": "NO",
+    "City": "Bangalore"
+  },
+  {
+    "Index ID": "10",
+    "Property Name": "Elite Party Place",
+    "Category": "Parties",
+    "Rating": "4",
+    "Capacity": "180",
+    "Occupied": "YES",
+    "City": "Jalandhar"
+  },
+  {
+    "Index ID": "11",
+    "Property Name": "Open Vibes Space",
+    "Category": "Open mic",
+    "Rating": "4",
+    "Capacity": "120",
+    "Occupied": "NO",
+    "City": "Mumbai"
+  },
+  {
+    "Index ID": "12",
+    "Property Name": "Melody Lounge",
+    "Category": "Open mic",
+    "Rating": "3",
+    "Capacity": "80",
+    "Occupied": "YES",
+    "City": "Delhi"
+  },
+  {
+    "Index ID": "13",
+    "Property Name": "Inspire Hub",
+    "Category": "Open mic",
+    "Rating": "5",
+    "Capacity": "150",
+    "Occupied": "NO",
+    "City": "Bangalore"
+  },
+  {
+    "Index ID": "14",
+    "Property Name": "Culture Connection",
+    "Category": "Open mic",
+    "Rating": "4",
+    "Capacity": "100",
+    "Occupied": "YES",
+    "City": "Jalandhar"
+  },
+  {
+    "Index ID": "15",
+    "Property Name": "Vibrant Lounge",
+    "Category": "Open mic",
+    "Rating": "5",
+    "Capacity": "200",
+    "Occupied": "NO",
+    "City": "Pune"
+  },
+  {
+    "Index ID": "16",
+    "Property Name": "Corporate Haven",
+    "Category": "Conferences",
+    "Rating": "4",
+    "Capacity": "300",
+    "Occupied": "NO",
+    "City": "Mumbai"
+  },
+  {
+    "Index ID": "17",
+    "Property Name": "Summit Plaza",
+    "Category": "Conferences",
+    "Rating": "5",
+    "Capacity": "250",
+    "Occupied": "NO",
+    "City": "Delhi"
+  },
+  {
+    "Index ID": "18",
+    "Property Name": "Infinite Boardroom",
+    "Category": "Conferences",
+    "Rating": "3",
+    "Capacity": "50",
+    "Occupied": "YES",
+    "City": "Pune"
+  },
+  {
+    "Index ID": "19",
+    "Property Name": "Executive Hub",
+    "Category": "Conferences",
+    "Rating": "5",
+    "Capacity": "200",
+    "Occupied": "YES",
+    "City": "Bangalore"
+  },
+  {
+    "Index ID": "20",
+    "Property Name": "Global Forum",
+    "Category": "Conferences",
+    "Rating": "4",
+    "Capacity": "180",
+    "Occupied": "NO",
+    "City": "Jalandhar"
+  },
+  {
+    "Index ID": "21",
+    "Property Name": "Starlight Club",
+    "Category": "Club house",
+    "Rating": "5",
+    "Capacity": "120",
+    "Occupied": "NO",
+    "City": "Mumbai"
+  },
+  {
+    "Index ID": "22",
+    "Property Name": "Luxury Lounge",
+    "Category": "Club house",
+    "Rating": "4",
+    "Capacity": "80",
+    "Occupied": "YES",
+    "City": "Delhi"
+  },
+  {
+    "Index ID": "23",
+    "Property Name": "Chill Haven",
+    "Category": "Club house",
+    "Rating": "3",
+    "Capacity": "100",
+    "Occupied": "NO",
+    "City": "Pune"
+  },
+  {
+    "Index ID": "24",
+    "Property Name": "Elite Retreat",
+    "Category": "Club house",
+    "Rating": "5",
+    "Capacity": "150",
+    "Occupied": "YES",
+    "City": "Jalandhar"
+  },
+  {
+    "Index ID": "25",
+    "Property Name": "Sunset Lounge",
+    "Category": "Club house",
+    "Rating": "4",
+    "Capacity": "120",
+    "Occupied": "NO",
+    "City": "Bangalore"
+  },
+  {
+    "Index ID": "26",
+    "Property Name": "Serenity Hall",
+    "Category": "Receptions",
+    "Rating": "5",
+    "Capacity": "250",
+    "Occupied": "NO",
+    "City": "Mumbai"
+  },
+  {
+    "Index ID": "27",
+    "Property Name": "Dreamscape Manor",
+    "Category": "Receptions",
+    "Rating": "4",
+    "Capacity": "200",
+    "Occupied": "YES",
+    "City": "Delhi"
+  },
+  {
+    "Index ID": "28",
+    "Property Name": "Eternal Bliss Banquet",
+    "Category": "Receptions",
+    "Rating": "3",
+    "Capacity": "150",
+    "Occupied": "NO",
+    "City": "Jalandhar"
+  },
+  {
+    "Index ID": "29",
+    "Property Name": "Golden Gateway",
+    "Category": "Receptions",
+    "Rating": "5",
+    "Capacity": "300",
+    "Occupied": "NO",
+    "City": "Bangalore"
+  },
+  {
+    "Index ID": "30",
+    "Property Name": "Grandeur Palace",
+    "Category": "Receptions",
+    "Rating": "4",
+    "Capacity": "180",
+    "Occupied": "YES",
+    "City": "Pune"
+  },
+  {
+    "Index ID": "31",
+    "Property Name": "Community Center",
+    "Category": "Community Hall",
+    "Rating": "3",
+    "Capacity": "100",
+    "Occupied": "NO",
+    "City": "Mumbai"
+  },
+  {
+    "Index ID": "32",
+    "Property Name": "Social Hub",
+    "Category": "Community Hall",
+    "Rating": "4",
+    "Capacity": "120",
+    "Occupied": "YES",
+    "City": "Delhi"
+  },
+  {
+    "Index ID": "33",
+    "Property Name": "Unity Plaza",
+    "Category": "Community Hall",
+    "Rating": "5",
+    "Capacity": "150",
+    "Occupied": "NO",
+    "City": "Bangalore"
+  },
+  {
+    "Index ID": "34",
+    "Property Name": "Harmony Hall",
+    "Category": "Community Hall",
+    "Rating": "4",
+    "Capacity": "180",
+    "Occupied": "NO",
+    "City": "Jalandhar"
+  },
+  {
+    "Index ID": "35",
+    "Property Name": "Cultural Haven",
+    "Category": "Community Hall",
+    "Rating": "5",
+    "Capacity": "200",
+    "Occupied": "YES",
+    "City": "Pune"
+  },
+  {
+    "Index ID": "36",
+    "Property Name": "Photo Op Studios",
+    "Category": "Photoshoot",
+    "Rating": "4",
+    "Capacity": "80",
+    "Occupied": "NO",
+    "City": "Mumbai"
+  },
+  {
+    "Index ID": "37",
+    "Property Name": "Artistic Avenue",
+    "Category": "Photoshoot",
+    "Rating": "5",
+    "Capacity": "100",
+    "Occupied": "YES",
+    "City": "Delhi"
+  },
+  {
+    "Index ID": "38",
+    "Property Name": "Backdrop Studios",
+    "Category": "Photoshoot",
+    "Rating": "3",
+    "Capacity": "50",
+    "Occupied": "NO",
+    "City": "Jalandhar"
+  },
+  {
+    "Index ID": "39",
+    "Property Name": "Captivating Canvas",
+    "Category": "Photoshoot",
+    "Rating": "5",
+    "Capacity": "120",
+    "Occupied": "NO",
+    "City": "Bangalore"
+  },
+  {
+    "Index ID": "40",
+    "Property Name": "Epic Elegance Studios",
+    "Category": "Photoshoot",
+    "Rating": "4",
+    "Capacity": "150",
+    "Occupied": "YES",
+    "City": "Pune"
+  }
+]
