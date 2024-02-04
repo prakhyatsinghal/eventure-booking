@@ -8,36 +8,6 @@ Eventure Booking is a platform that connects talented individuals with unique sp
 - Backend: Node.js
 - Database: MongoDB
 
-## Folder Structure
-
-Eventure-booking/
-├── eventure-backend/
-│ ├── config/
-│ ├── controllers/
-│ ├── models/
-│ ├── routes/
-│ ├── tests/
-│ ├── utils/
-│ ├── .env
-│ ├── .gitignore
-│ ├── app.js
-│ ├── package.json
-│ └── README.md
-└── eventure-frontend/
-├── public/
-├── src/
-│ ├── components/
-│ ├── pages/
-│ ├── services/
-│ ├── styles/
-│ ├── App.js
-│ ├── index.js
-│ └── README.md
-├── .gitignore
-├── package.json
-├── README.md
-
-
 ## Assumptions
 
 - The backend API assumes that MongoDB is running locally, and the connection details are configured in the `eventure-backend/config/db.js` file.
