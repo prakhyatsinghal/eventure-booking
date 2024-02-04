@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>Book Your Event</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+  
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#myPage">EVENTURE</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#about"></a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">LOCATIONS <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Phagwara</a></li>
+                            <li><a href="#">Jalandhar</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">ACTIVITIES <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Wedding</a></li>
+                            <li><a href="#">Party</a></li>
+                            <li><a href="#">Photoshoot</a></li>
+                            <li><a href="#">Meeting</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">CAPACITY <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">1-10</a></li>
+                            <li><a href="#">10-50</a></li>
+                            <li><a href="#">50-100</a></li>
+                            <li><a href="#">100 Plus</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#contact">CONTACT US</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Carousel Code -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+        <!-- Add your carousel content here -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="1.jpg" alt="Apna Lounge - Phagwara">
+            </div>
+            <div class="item">
+                <img src="2.jpg" alt="Splendid Loft - Phagwara">
+            </div>
+            <div class="item">
+                <img src="3.jpg" alt="Silver Oak - Jalandhar">
+            </div>
+            <div class="item">
+                <img src="4.jpg" alt="Small Gathering - Jalandhar">
+            </div>
+            <div class="item">
+                <img src="5.jpg" alt="Birthday Party - Jalandhar">
+            </div>
+        </div>
+
+        <!-- Tagline -->
+                  <div class="tagline">Where Every Moment Finds Its Perfect Venue.</div>
+
+        <!-- Note -->
+        <div class="note" id="carouselNote"></div>
+    </div>
+
+
+    <script>
+        $(document).ready(function () {
+            $('#myCarousel').on('slid.bs.carousel', function () {
+                var activeItem = $('.carousel-inner .item.active img').attr('alt');
+                $('#carouselNote').text(activeItem);
+            });
+        });
+    </script>
+
+</body>
+</html>

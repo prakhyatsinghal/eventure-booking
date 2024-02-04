@@ -1,0 +1,109 @@
+body{
+  background-color: rgb(0, 0, 0);
+  
+}
+
+.navbar {
+  margin-bottom: 0;
+
+  background-color: #000000;
+  /*background-color: transparent;*/
+
+  
+  z-index: 9999;
+  border: 0;
+  font-size: 12px !important;
+  line-height: 3 !important;
+  letter-spacing: 1px;
+  border-radius: 0;
+  font-family: Montserrat, sans-serif;
+}
+
+/* 
+.navbar.scrolled {
+  background-color: #000000; /* Set the desired background color when scrolled 
+}
+
+NOT working
+  */
+
+.kk
+{
+padding-top: 00px;
+}
+.navbar li a, .navbar .navbar-brand {
+  color: #fff !important;
+}
+
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #525252 !important;
+  background-color: #fff !important;
+}
+
+/*
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important;
+}
+*/.navbar-nav > li:hover > .dropdown-menu {
+  display: block;
+  color: #a7a7a7;
+  min-width: 16px;
+  padding: 10px 10px 8px 10px; /* Adjust padding values */
+  margin: 2px -10px 0; /* Adjust margin values */
+  font-size: 16px;
+  text-align: left;
+  list-style: none;
+  background-color: #000;
+}
+
+.dropdown-menu > li > a{
+  display: block;
+    padding: 17px 18px 15px 10px;
+    margin-block: initial;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+
+
+#myCarousel {
+  height: 510px; /* Set the desired height for the carousel */
+}
+
+.carousel-inner {
+  height: 100%; /* Make sure the carousel takes the full height */
+}
+
+.carousel-inner img {
+  width: 100%; /* Make images fill the entire width of the carousel item */
+  height: 100%; /* Make images fill the entire height of the carousel item */
+  object-fit: cover; /* Preserve the aspect ratio while covering the entire container */
+}
+
+  .note {
+    margin-top: 11px;
+    text-align: right;
+    color: #9a9a9a;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 48px;
+}
+
+.tagline {
+  position: fixed;
+  top: 457px; /* Adjust the top position as needed */
+  left: 88px; /* Adjust the left position as needed */
+  z-index: 1000; /* Set a high z-index to ensure it's on top of other elements */
+  color: #ffffff; /* Set the text color */
+  font-size: 88px; /* Set the font size */
+  font-weight: bold; /* Optionally set font weight */
+  position: fixed;
+  right: 447px;
+  line-height: 1.2;
+
+  
+}
+
+
