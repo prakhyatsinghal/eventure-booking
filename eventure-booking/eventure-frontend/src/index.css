@@ -284,3 +284,14 @@ padding-top: 00px;
   margin-left: 610px;
   bottom: 250px;
 }
+
+.findyourspace{
+  background-color: rgb(255, 255, 255);
+  border: none;
+  color: (0,0,0);
+  position: absolute;
+  left: 683px;
+  top: 561px;
+  padding: 6px;
+  
+}
