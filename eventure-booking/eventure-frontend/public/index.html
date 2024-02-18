@@ -27,7 +27,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap" rel="stylesheet">
-  
+
+    <link rel="stylesheet" href="footer.css">
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
@@ -84,16 +85,16 @@
     <!-- Add your carousel content here -->
     <div class="carousel-inner">
         <div class="item active">
-            <img src="1.jpg" alt="Venue: Apna Lounge, Location: Phagwara">
+            <img src="1.jpg" alt="Venue: Golden Tulip, Location: Jalandhar">
         </div>
         <div class="item">
-            <img src="2.jpg" alt="Venue: Splendid Loft, Location: Phagwara">
+            <img src="2.jpg" alt="Venue: Haveli, Location: Jalandhar">
         </div>
         <div class="item">
-            <img src="3.jpg" alt="Venue: Silver Oak, Location: Jalandhar">
+            <img src="3.jpg" alt="Venue: The Cabbana Resort, Location: Phagwara">
         </div>
         <div class="item">
-            <img src="4.jpg" alt="Event: Small Gathering, Location: Jalandhar">
+            <img src="4.jpg" alt="Event: Resort, Location: Jalandhar">
         </div>
         <div class="item">
             <img src="5.jpg" alt="Event: Birthday Party, Location: Jalandhar">
@@ -102,7 +103,7 @@
 </div>
 
 <!-- note -->
-<div class="note" id="carouselNote">Place — Apna Lounge<br>Phagwara PB, IN</div>
+<div class="note" id="carouselNote">Place — Golden Tulip<br>Jalandhar PB, IN</div>
 <!-- Tagline -->
 <div class="tagline">Where Every Moment Finds Its Perfect Venue.</div>
 <div class="second">
@@ -167,11 +168,12 @@
 
 
 
+<!-- Footer -->
 
 
 
 
-
+<!-- Footer END -->
 
 
 
@@ -186,20 +188,20 @@
                 case 'Venue: Apna Lounge, Location: Phagwara':
                     noteContent = 'Place — Apna Lounge<br>Phagwara PB, IN';
                     break;
-                case 'Venue: Splendid Loft, Location: Phagwara':
-                    noteContent = 'Meeting Spot — Splendid loft<br>Phagwara, IN';
+                case 'Venue: Haveli, Location: Jalandhar':
+                    noteContent = 'Meeting Spot — Haveli<br>Jalandhar, IN';
                     break;
-                case 'Venue: Silver Oak, Location: Jalandhar':
-                    noteContent = 'Banquet Hall — Silver Oak<br>Jalandhar PB, IN';
+                case 'Venue: The Cabbana Resort, Location: Phagwara':
+                    noteContent = 'Banquet Hall — The Cabbana Resort<br>Phagwara PB, IN';
                     break;
-                case 'Event: Small Gathering, Location: Jalandhar':
-                    noteContent = 'Event — Small Gathering<br>Jalandhar PB, IN';
+                case 'Event: Resort, Location: Jalandhar':
+                    noteContent = 'Event — Resort<br>Jalandhar PB, IN';
                     break;
                 case 'Event: Birthday Party, Location: Jalandhar':
                     noteContent = 'Event — Birthday party<br>Jalandhar PB, IN';
                     break;
                 default:
-                    noteContent = 'Default Note';
+                    noteContent = 'Book your Location <br>NOW!';
             }
 
             $('#carouselNote').html(noteContent);
