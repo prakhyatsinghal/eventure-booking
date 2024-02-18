@@ -81,7 +81,7 @@ padding-top: 00px;
 .carousel-inner img {
   width: 100%; /* Make images fill the entire width of the carousel item */
   height: 100%; /* Make images fill the entire height of the carousel item */
-  object-fit: cover; /* Preserve the aspect ratio while covering the entire container */
+  object-fit: cover; 
 }
 
    .note { 
@@ -221,6 +221,13 @@ padding-top: 00px;
   z-index: 0;
 }
 #img7{
+  border-radius: 2%;
+  margin-top: 20.5%;
+  margin-left: 5%;
+}
+
+#img77{
+  object-fit: cover;
   border-radius: 2%;
   margin-top: 20.5%;
   margin-left: 5%;
